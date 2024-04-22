@@ -1,0 +1,386 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.popup-wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent background */
+  z-index: 1000;
+  justify-content: center;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+}
+
+.popup h2 {
+  margin-top: 0;
+}
+
+.popup a {
+  width: 70px;
+  padding: 10px 16px;
+  background-color: #ADBC9F;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.popup a:hover {
+  background-color: #12372A;
+  color: white;
+}
+
+nav {
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  height: 63px;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+nav ul li {
+  margin: 10px;
+  margin-left: 30px;
+}
+
+nav ul li a,
+nav ul li input[type="search"],
+nav ul li .donate-button {
+  display: block;
+  color: #12372A;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+  float: left;
+}
+
+nav ul li input[type="search"] {
+  border: none;
+  margin-top: 3px;
+  padding: 10px 5px;
+
+}
+
+.right {
+  color: #12372A;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+  float: right;
+  margin-right: 160px;
+}
+
+.right:hover {
+  background-color: #e4e4e4;
+}
+
+nav ul li .donate-button {
+  background-color: transparent;
+  border: 1px solid #12372A;
+  cursor: pointer;
+  border-radius: 300px;
+  float: right;
+  margin-left: 1055px;
+  position: fixed;
+}
+
+nav ul li a:hover,
+nav ul li .donate-button:hover {
+  background-color: #e4e4e4;
+}
+
+nav ul li .donate-button:hover {
+  background-color: #12372A;
+  color: #fff;
+}
+
+.hero-image {
+    background-image: linear-gradient(#12372a63, #12372a62), url("back.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.content {
+    width: 100%;
+    height: 50%;
+    margin-top: -150px;
+    left: 0%;
+    right: 0%;
+    background-color: white;
+    border-radius: 30px 30px 0px 0px;
+    position: absolute;
+    z-index: 2;
+}
+
+.content h1 {
+  font-size: 40px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.why {
+  display: flex;
+  justify-content: center;
+}
+
+.why .box {
+  background-color: #c1caff;
+  width: 250px;
+  height: 300px;
+  flex: 0 0 auto;
+  margin: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.why .box ion-icon {
+  font-size: 40px;
+  margin: 50px;
+  margin-bottom: 5px;
+  color: #12372A;
+}
+
+.why .box h3 {
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.why .box p {
+  font-size: 15px;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+
+.page {
+  width: 100%;
+  height: auto;
+  left: 0%;
+  right: 0%;
+  color: white;
+  background-color: #12372A;
+  z-index: 1;
+}
+
+.page h1 {
+  margin: 60px;
+  margin-right: 40%;
+}
+
+.page img {
+  position: absolute;
+  top: 202%;
+  right: 8%;
+  width: auto;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.fund {
+  width: 230px;
+  height: 35px;
+  margin: 60px;
+  text-align: center;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #222;
+}
+
+.fund h1 {
+  font-size: 18px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+body h1 {
+  font-size: 25px;
+  margin-left: 60px;
+}
+
+body p {
+  font-size: 18px;
+  margin-left: 60px;
+}
+
+body hr {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+nav ul li .me {
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right:150px;
+  padding: 10px 20px;
+  float: right;
+  font-weight: 600;
+}
+
+
+.hero-image {
+    background-image: linear-gradient(#12372a63, #12372a62), url("back.jpg");
+    width: auto;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.content {
+    width: 100%;
+    height: 50%;
+    margin-top: -150px;
+    left: 0%;
+    right: 0%;
+    background-color: white;
+    border-radius: 30px 30px 0px 0px;
+    position: absolute;
+    z-index: 2;
+}
+
+.content a button{
+    background-color: transparent;
+    border: none;
+    display: block;
+    color: #12372A;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    float: right;
+    font-size: 18px;
+    margin-right: 80px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.content a button:hover {
+    background-color: #e4e4e4;
+}
+
+.contented {
+    background-color: #12372A;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    justify-content: center;
+    top: 250px;
+    left: 250px;
+    right: 250px;
+}
+
+.contented h1 {
+    color: white;
+    text-align: center;
+}
+
+.contented p {
+    color: white;
+    line-height: 1.6;
+}
+
+.content form {
+    margin: 50px;
+    font-size: large;
+}
+
+.content label {
+    margin-right: 10px;
+}
+
+.content select,
+input[type="submit"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.content input[type="submit"] {
+    cursor: pointer;
+    background-color: #12372A;
+    color: white;
+    border: none;
+}
+
+.content input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+.content table {
+    width: 90%;
+    margin: 60px;
+    top: 0px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+.content th,
+td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.content td a {
+    text-decoration: none;
+    background-color: #12372A;
+    color: white;
+    padding: 8px;
+    margin:5px;
+    float: right;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.content th {
+    background-color: #f2f2f2;
+}
+
+.content tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
