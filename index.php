@@ -105,10 +105,10 @@
   <div class="footer-content">
     <div class="footer-section">
       <h3>About Us</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec enim arcu. Vestibulum ante ipsum primis in
-        faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, fermentum auctor.</p>
+      <p>Charity Flow is dedicated to facilitating a continuous stream of generosity, 
+        where every contribution creates a ripple effect of positive change in the lives of those in need.</p>
       <div class="social-icons">
-        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="https://www.facebook.com/groups/353244247737258"><ion-icon name="logo-facebook"></ion-icon></a>
         <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
         <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
         <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
